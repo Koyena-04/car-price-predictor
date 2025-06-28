@@ -10,9 +10,14 @@ How to run:-
 
 
 2. Run Flask app:
+
    python app.py
 
 3. Send POST request to http://127.0.0.1:5000/predict with JSON input.
+
+4. Example curl command to test the API:
+ 
+   curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d @sample_input.json
 
 
 Project files
