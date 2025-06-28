@@ -34,7 +34,7 @@ car-price-predictor
 ├── notebooks/ # Contains Jupyter notebooks for EDA & model training
 │ └── car_price_model.ipynb
 ├── .gitignore
-└── README.md ```
+└── README.md
 
 ---
 
