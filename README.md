@@ -25,7 +25,7 @@ The trained model is served via a Flask API that accepts JSON input and returns 
 ---
 
 ## 📁 Project Structure
-car-price-predictor
+```car-price-predictor
 ├── app.py # Flask API to serve the model
 ├── car_price_model.pkl # Trained model saved using joblib
 ├── sample_input.json # Example input to test the API
@@ -33,7 +33,7 @@ car-price-predictor
 ├── notebooks/ # Contains Jupyter notebooks for EDA & model training
 │ └── car_price_model.ipynb
 ├── .gitignore
-└── README.md
+└── README.md```
 
 ---
 
