@@ -25,16 +25,15 @@ The trained model is served via a Flask API that accepts JSON input and returns 
 ---
 
 ## 📁 Project Structure
-   car-price-predictor/
-   ├── app.py # Flask API to serve the model
-   ├── car_price_model.pkl # Trained model saved using joblib
-   ├── sample_input.json # Example input to test the API
-   ├── requirements.txt # Python dependencies
-   ├── notebooks/ # Contains Jupyter notebooks for EDA & model training
-   │ └── car_price_model.ipynb
-   ├── .gitignore
-   └── README.md
-
+car-price-predictor
+├── app.py # Flask API to serve the model
+├── car_price_model.pkl # Trained model saved using joblib
+├── sample_input.json # Example input to test the API
+├── requirements.txt # Python dependencies
+├── notebooks/ # Contains Jupyter notebooks for EDA & model training
+│ └── car_price_model.ipynb
+├── .gitignore
+└── README.md
 
 ---
 
@@ -70,12 +69,10 @@ The trained model is served via a Flask API that accepts JSON input and returns 
     -H "Content-Type: application/json" \
     -d @sample_input.json
 
-📊 Model Performance (on test data)
-- Model Used: Linear Regression (or specify if different)
+### 📊 Model Performance (on test data)
+- Model Used: Linear Regression
 
 - R² Score: 0.9057
-
-- RMSE: $3,400
 
 
 
